@@ -14,12 +14,11 @@ int main(int argc, char *argv[]) {
 			execl(command, command, NULL);
 			return 0; // just to avoid the warning (since never returns)
 		}
-		//printf("%i", atoi(argv[1]));
-		/*if (atoi(argv[1]) == 1) {
+		if (strcmp(commandArgument, "shutdown") == 0) {
 			char *command = "/sbin/reboot";
 			execl(command, command, NULL);
 			return 0; // just to avoid the warning (since never returns)
-		}*/
+		}
 		//if (commandArgument == 2) {
 		//	char *command = "/sbin/shutdown -h now";
 		//	execl(command, command, NULL);
