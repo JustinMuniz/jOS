@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main() {
+	puts("test");
 	setuid(0); // for uid to be 0, root
 	FILE *shellOutput;
 	char outputCharacter;
