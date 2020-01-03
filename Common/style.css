@@ -1,3 +1,19 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 body {
 	background-color: black;
 }
@@ -24,5 +40,4 @@ h1 {
 	border-radius: 5px;
 	color: black;
 	font-weight: bold;
-	text-decoration: none;
 }
