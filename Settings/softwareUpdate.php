@@ -1,8 +1,4 @@
 <?php
-	exec("./update");
-	exec("./upgrade");
-	exec("./autoremove");
-	exec("./clean");
 	// Check if there is a rotation lock enabled
 	// If not, rotate the screen to portrait mode
 	exec("../Common/rotateScreen.sh left");
@@ -18,15 +14,19 @@
 		<h1>
 			Software Update
 		</h1>
-		<p>
-			Software is up to date
-		</p>
 		<a class = "ButtonAnchor" href = "index.php">
 			Settings
 		</a>
 		<a class = "ButtonAnchor" href = "../Home/index.php">
 			Home
 		</a>
+		<p>
+<?php
+	echo exec("./update");
+	echo exec("./upgrade");
+	echo exec("./autoremove");
+	echo exec("./clean");
+?>
+		</p>
 	</body>
 </html>
-?>
