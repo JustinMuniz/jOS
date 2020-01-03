@@ -25,10 +25,8 @@
 		</a>
 		<p>
 <?php
-	$response = exec("./josupdate");
-	echo "<pre>$response</pre>";
-	$response = exec("./makefiles");
-	echo "<pre>$response</pre>";
+	passthru("./josupdate");
+	passthru("./makefiles");
 ?>
 		</p>
 	</body>
