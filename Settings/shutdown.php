@@ -1,3 +1,3 @@
 <?php
-	exec("./elevatedCommands shutdown");
+	exec("./elevatedCommands 2");
 ?>
