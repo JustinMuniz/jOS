@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 int main(int argc, char *argv[]) {
-	if (argv[1] == "reboot") {
+	if (strcmp(argv[1], "reboot")) {
 		setuid(0); // for uid to be 0, root
 		char *command = "/sbin/reboot";
 		execl(command, command, NULL);
