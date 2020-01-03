@@ -3,6 +3,7 @@
 #include <unistd.h>
 
 int main() {
+	setuid(0); // for uid to be 0, root
 	char *command = "/usr/bin/apt-get autoremove --purge";
 	execl(command, command, NULL);
 	return 0; // just to avoid the warning (since never returns)
