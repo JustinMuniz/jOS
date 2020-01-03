@@ -10,6 +10,9 @@ int main(int argc, char *argv[]) {
 		char commandArgument [64];
 		strcpy(commandArgument, argv[1]);
 		printf(commandArgument);
+		if (commandArgument == "hi") {
+			printf("that's right");
+		}
 		//printf("%i", atoi(argv[1]));
 		/*if (atoi(argv[1]) == 1) {
 			char *command = "/sbin/reboot";
