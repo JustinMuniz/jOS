@@ -14,9 +14,6 @@
 		<h1>
 			jOS Update
 		</h1>
-		<p>
-			jOS is up to date
-		</p>
 		<a class = "ButtonAnchor" href = "index.php">
 			Settings
 		</a>
