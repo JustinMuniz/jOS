@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <stdio.h>
+#include <string.h>
 
 int main(int argc, char *argv[]) {
 	if (strcmp(argv[1], "reboot")) {
