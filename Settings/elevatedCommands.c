@@ -9,9 +9,10 @@ int main(int argc, char *argv[]) {
 	if(argc > 0) {
 		char commandArgument [64];
 		strcpy(commandArgument, argv[1]);
-		printf(commandArgument);
-		if (strcmp(commandArgument, "hi") == 0) {
-			printf("that's right");
+		if (strcmp(commandArgument, "reboot") == 0) {
+			char *command = "/sbin/reboot";
+			execl(command, command, NULL);
+			return 0; // just to avoid the warning (since never returns)
 		}
 		//printf("%i", atoi(argv[1]));
 		/*if (atoi(argv[1]) == 1) {
