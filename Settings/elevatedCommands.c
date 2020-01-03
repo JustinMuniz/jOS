@@ -46,5 +46,10 @@ int main(int argc, char *argv[]) {
 		execl(command, command, NULL);
 		return 0; // just to avoid the warning (since never returns)
 	}
+	if (strcmp(argv[1], "make")) {
+		char *command = "/usr/bin/make -f /var/www/html/makefile";
+		execl(command, command, NULL);
+		return 0; // just to avoid the warning (since never returns)
+	}
 	return 1;
 }
