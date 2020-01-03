@@ -1,3 +1,3 @@
 <?php
-	echo exec("git pull");
+	exec("./elevatedCommands josupdate");
 ?>
