@@ -25,8 +25,10 @@
 		</a>
 		<p>
 <?php
-	passthru("./josupdate");
-	passthru("./makefiles");
+	echo "<pre>";
+	system("./josupdate");
+	system("./makefiles");
+	echo "</pre>";
 ?>
 		</p>
 	</body>
