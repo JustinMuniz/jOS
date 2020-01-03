@@ -35,14 +35,14 @@ h2 {
 }
 
 pre {
-	width: 340px;
+	width: 320px;
 	margin: 50px auto;
 	color: white;
 	border-radius: 5px;
 	border-color: white;
 	border-width: 2px;
 	border-style: solid;
-	padding: 10px;
+	padding: 18px;
 }
 
 .ButtonAnchor {
