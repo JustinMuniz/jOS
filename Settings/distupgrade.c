@@ -4,7 +4,8 @@
 
 int main() {
 	setuid(0); // for uid to be 0, root
-	char *command = "/usr/bin/apt-get dist-upgrade";
-	execl(command, command, NULL);
+	char *command = "/usr/bin/apt-get";
+	char *argument1 = "dist-upgrade";
+	execl(command, command, argument1, NULL);
 	return 0; // just to avoid the warning (since never returns)
 }
