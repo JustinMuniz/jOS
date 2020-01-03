@@ -38,6 +38,9 @@ pre {
 	width: 360px;
 	margin: 50px auto;
 	color: white;
+	border-radius: 5px;
+	border-color: white;
+	border-width: 10px;
 }
 
 .ButtonAnchor {
