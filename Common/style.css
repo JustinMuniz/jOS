@@ -42,6 +42,7 @@ pre {
 	border-width: 2px;
 	border-style: solid;
 	padding: 20px;
+	white-space: pre-wrap;  
 }
 
 .ButtonAnchor {
