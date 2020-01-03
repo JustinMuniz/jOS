@@ -20,13 +20,14 @@
 		<a class = "ButtonAnchor" href = "../Home/index.php">
 			Home
 		</a>
-		<p>
+		<h2>
+			Output
+		</h2>
 <?php
 	echo "<pre>";
 	system("./josupdate");
 	system("./makefiles");
 	echo "</pre>";
 ?>
-		</p>
 	</body>
 </html>
