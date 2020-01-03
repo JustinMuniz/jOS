@@ -1,3 +1,3 @@
 <?php
-	exec("reboot");
+	exec("elevatedCommands reboot");
 ?>
