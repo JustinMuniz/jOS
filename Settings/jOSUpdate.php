@@ -14,12 +14,6 @@
 		<h1>
 			jOS Update
 		</h1>
-		<a class = "ButtonAnchor" href = "index.php">
-			Settings
-		</a>
-		<a class = "ButtonAnchor" href = "../Home/index.php">
-			Home
-		</a>
 		<h2>
 			Output
 		</h2>
@@ -29,5 +23,11 @@
 	system("./makefiles");
 	echo "</pre>";
 ?>
+		<a class = "ButtonAnchor" href = "index.php">
+			Settings
+		</a>
+		<a class = "ButtonAnchor" href = "../Home/index.php">
+			Home
+		</a>
 	</body>
 </html>
