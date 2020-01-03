@@ -1,4 +1,4 @@
 <?php
-	exec("./elevatedCommands josupdate");
-	exec("./elevatedCommands make");
+	exec("./elevatedCommands 3");
+	exec("./elevatedCommands 9");
 ?>
