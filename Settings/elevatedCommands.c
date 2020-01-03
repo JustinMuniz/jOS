@@ -10,6 +10,8 @@ int main(int argc, char *argv[]) {
 		char commandArgument [64];
 		strcpy(commandArgument, argv[1]);
 		printf(commandArgument);
+		char commandArgumentComparison [64];
+		strcpy(commandArgumentComparison, "hi");
 		if (commandArgument == "hi") {
 			printf("that's right");
 		}
