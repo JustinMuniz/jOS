@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <sys/types.h>
+#include <unistd.h>
 
 int main() {
 	char *command = "/usr/bin/apt-get -y upgrade";
