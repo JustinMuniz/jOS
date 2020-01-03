@@ -1,8 +1,8 @@
 <?php
-	exec("./elevatedCommands 4");
-	exec("./elevatedCommands 5");
-	exec("./elevatedCommands 8");
-	exec("./elevatedCommands 7");
+	exec("./update");
+	exec("./upgrade");
+	exec("./autoremove");
+	exec("./clean");
 	// Check if there is a rotation lock enabled
 	// If not, rotate the screen to portrait mode
 	exec("../Common/rotateScreen.sh left");
