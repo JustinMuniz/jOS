@@ -25,11 +25,12 @@ h1 {
 	width: 360px;
 	line-height: 100px;
 	text-align: center;
-	font-size: 65px;
+	font-size: 50px;
 }
 
 p {
 	color: white;
+	float: clear;
 }
 
 .ButtonAnchor {
