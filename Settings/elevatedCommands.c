@@ -7,13 +7,9 @@
 int main(int argc, char *argv[]) {
 	setuid(0); // for uid to be 0, root
 	if(argc > 0) {
-		int commandArgument = atoi(argv[1]);
-		if (commandArgument == 1) {
-			printf("yes");
-		}
-		if (commandArgument != 1) {
-			printf("no");
-		}
+		char commandArgument [64];
+		strcpy(commandArgument, argv[1]);
+		printf(commandArgument);
 		//printf("%i", atoi(argv[1]));
 		/*if (atoi(argv[1]) == 1) {
 			char *command = "/sbin/reboot";
