@@ -24,7 +24,6 @@
 	echo "</pre>";
 ?>
 		<br />
-		<br />
 		<a class = "ButtonAnchor" href = "index.php">
 			Settings
 		</a>
