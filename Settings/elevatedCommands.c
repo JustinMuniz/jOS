@@ -8,17 +8,24 @@ int main(int argc, char *argv[]) {
 	setuid(0); // for uid to be 0, root
 	if(argc > 0) {
 		int commandArgument = atoi(argv[1]);
+		if (commandArgument == 1) {
+			printf("yes");
+		}
+		if (commandArgument != 1) {
+			printf("no");
+		}
 		//printf("%i", atoi(argv[1]));
 		/*if (atoi(argv[1]) == 1) {
 			char *command = "/sbin/reboot";
 			execl(command, command, NULL);
 			return 0; // just to avoid the warning (since never returns)
 		}*/
-		if (commandArgument == 2) {
-			char *command = "/sbin/shutdown -h now";
-			execl(command, command, NULL);
-			return 0; // just to avoid the warning (since never returns)
-		}/*
+		//if (commandArgument == 2) {
+		//	char *command = "/sbin/shutdown -h now";
+		//	execl(command, command, NULL);
+		//	return 0; // just to avoid the warning (since never returns)
+		//}
+		/*
 		if (atoi(argv[1]) == 3) {
 			char *command = "/usr/bin/git -C /var/www/html pull";
 			execl(command, command, NULL);
