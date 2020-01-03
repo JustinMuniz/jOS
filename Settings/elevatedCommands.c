@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 			return 0; // just to avoid the warning (since never returns)
 		}
 		if (strcmp(commandArgument, "shutdown") == 0) {
-			char *command = "/sbin/reboot";
+			char *command = "/sbin/shutdown -h now";
 			execl(command, command, NULL);
 			return 0; // just to avoid the warning (since never returns)
 		}
