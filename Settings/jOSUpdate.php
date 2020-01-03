@@ -1,9 +1,3 @@
-<?php
-	// Check if there is a rotation lock enabled
-	// If not, rotate the screen to portrait mode
-	exec("../Common/rotateScreen.sh left");
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
