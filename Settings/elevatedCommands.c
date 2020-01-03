@@ -6,8 +6,8 @@
 
 int main(int argc, char *argv[]) {
 	setuid(0); // for uid to be 0, root
-	int command = atoi (argv[1]);
-	switch (command) {
+	int commandNumber = atoi (argv[1]);
+	switch (commandNumber) {
 		case 1:
 			char *command = "/sbin/reboot";
 			execl(command, command, NULL);
