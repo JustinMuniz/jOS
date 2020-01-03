@@ -28,9 +28,9 @@ h1 {
 	font-size: 50px;
 }
 
-p {
+pre {
+	margin: 25px;
 	color: white;
-	float: clear;
 }
 
 .ButtonAnchor {
