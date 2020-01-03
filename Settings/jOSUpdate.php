@@ -25,10 +25,10 @@
 		</a>
 		<p>
 <?php
-	exec("./josupdate", $response);
-	echo $response;
-	exec("./makefiles", $response);
-	echo $response;
+	$response = exec("./josupdate");
+	echo "<pre>$response</pre>";
+	$response = exec("./makefiles");
+	echo "<pre>$response</pre>";
 ?>
 		</p>
 	</body>
