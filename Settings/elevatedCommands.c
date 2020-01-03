@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 		printf(commandArgument);
 		char commandArgumentComparison [64];
 		strcpy(commandArgumentComparison, "hi");
-		if (commandArgument == "hi") {
+		if (commandArgument == commandArgumentComparison) {
 			printf("that's right");
 		}
 		//printf("%i", atoi(argv[1]));
