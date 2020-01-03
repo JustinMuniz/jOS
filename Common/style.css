@@ -28,6 +28,10 @@ h1 {
 	font-size: 65px;
 }
 
+p {
+	color: white;
+}
+
 .ButtonAnchor {
 	display: block;
 	width: 360px;
