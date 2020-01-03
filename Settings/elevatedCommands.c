@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 		return 0; // just to avoid the warning (since never returns)
 	}
 	if (atoi(argv[1]) == 3) {
-		char *command = "/usr/bin/git -c /var/www/html pull";
+		char *command = "/usr/bin/git -C /var/www/html pull";
 		execl(command, command, NULL);
 		return 0; // just to avoid the warning (since never returns)
 	}
