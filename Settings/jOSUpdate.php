@@ -25,8 +25,10 @@
 		</a>
 		<p>
 <?php
-	echo exec("./josupdate");
-	echo exec("./makefiles");
+	exec("./josupdate", $response);
+	echo $response;
+	exec("./makefiles", $response);
+	echo $response;
 ?>
 		</p>
 	</body>
