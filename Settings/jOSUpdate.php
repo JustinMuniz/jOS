@@ -25,8 +25,8 @@
 		</a>
 		<p>
 <?php
-	echo exec("./elevatedCommands josupdate");
-	echo exec("./elevatedCommands make");
+	echo exec("./josupdate");
+	echo exec("./makefiles");
 ?>
 		</p>
 	</body>
