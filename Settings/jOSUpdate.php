@@ -23,7 +23,6 @@
 	system("./makefiles");
 	echo "</pre>";
 ?>
-		<br />
 		<a class = "ButtonAnchor" href = "index.php">
 			Settings
 		</a>
