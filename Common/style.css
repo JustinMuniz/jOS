@@ -9,7 +9,7 @@ h1 {
 	width: 360px;
 	line-height: 100px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 65px;
 }
 
 .ButtonAnchor {
@@ -24,4 +24,5 @@ h1 {
 	border-radius: 5px;
 	color: black;
 	font-weight: bold;
+	text-decoration: none;
 }
