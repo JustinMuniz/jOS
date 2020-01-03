@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: #18f533;
+	height:100px;
+	margin: 25px auto;
+	width: 360px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.ButtonAnchor {
+	display: block;
+	width: 360px;
+	height: 75px;
+	background: #18f533;
+	margin: 25px auto;
+	line-height: 75px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+}
