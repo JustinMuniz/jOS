@@ -1,3 +1,5 @@
+all: autoremove clean distupgrade josupdate makefiles reboot shutdown update upgrade
+
 autoremove:
 	gcc -Wall /var/www/html/Settings/autoremove.c -o /var/www/html/Settings/autoremove
 	chown root:www-data /var/www/html/Settings/autoremove
