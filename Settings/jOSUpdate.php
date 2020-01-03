@@ -26,8 +26,9 @@
 		<p>
 <?php
 	echo "<pre>";
-	system("./josupdate");
-	system("./makefiles");
+	system("ls");
+	//system("./josupdate");
+	//system("./makefiles");
 	echo "</pre>";
 ?>
 		</p>
